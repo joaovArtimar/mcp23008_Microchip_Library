@@ -34,6 +34,7 @@ void mcpSetPinLow(MCP23008 *mcp23008, uint8_t pin);
 uint8_t mcpGetPinMode(MCP23008 *mcp23008, uint8_t pin);
 uint8_t mcpGetPinState(MCP23008 *mcp23008, uint8_t pin);
 
+//uint8_t pinState;
 #ifdef	__cplusplus
 }
 #endif
